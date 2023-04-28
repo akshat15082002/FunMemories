@@ -1,0 +1,158 @@
+.navbar {
+    background-color: black;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    border-radius: 5px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background-color: #ebebf5b8;
+}
+img:hover
+{
+    border-radius: 2px;
+    box-shadow: 0.4px 0.4px 12px 1.3px black;
+}
+.navcontent {
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    align-items: center;
+}
+.head
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+}
+.box1
+{
+    text-align: center;
+}
+.box1 img
+{
+    width: 1190px;
+    top: 66px;
+    position: relative;
+}
+.box2
+{
+    position: relative;
+    top: 80px;
+    left: 36px;
+    margin-right: 0px;
+    display: flex;
+    width: 1200px;
+}
+.box2-1 img
+{
+    width:540px;
+    height: 380px;
+}
+.box2-2
+{
+    margin-left: 55px;
+}
+.box2-2 img
+{
+    width: 196px;
+}
+.box3
+{
+    position: relative;
+    left: 36px;
+    margin-right: 0px;
+    display: flex;
+    width: 1200px;
+}
+.box3-1
+{
+    position: relative;
+    top: 87px;
+}
+.box3-2 img
+{
+    width:540px;
+    height: 380px;
+}
+.box3-2
+{
+    margin-left: 55px;
+}
+.box3-1 img
+{
+    width: 196px;
+}
+.box4
+{
+    position: relative;
+    top: 20px;
+    width: 1200px;
+    left: 10px;
+}
+.box4 img
+{
+    width: 32%;
+    margin-left: 10px;
+}
+.box5
+{
+    position: relative;
+    top: 20px;
+    width: 1200px;
+    left: 46px;
+}
+.box5 img
+{
+    width: 32%;
+    margin-left: 10px;
+}
+.box6
+{
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 172px;
+    width: 910px;
+}
+.box6 .img1
+{
+    width: 196px;
+}
+.box6 .img2
+{
+    height: 294px;
+    margin-left: 20px;
+}
+.box6 .img3
+{
+    width: 440px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+.box7
+{
+    text-align: center;
+}
+.box7 img
+{
+    width: 1190px;
+    top: 20px;
+    position: relative;
+}
