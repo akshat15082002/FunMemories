@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Poppins:ital,wght@0,100;1,200&display=swap');
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+}
+
+.navbar {
+    background-color: black;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    border-radius: 5px;
+}
+
+.navcontent {
+    list-style: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+    align-items: center;
+}
+/* styling the heading one */
+.heading{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading h1{
+    margin: 5% 0;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* styling description section */
+.description{
+    width: 100%;
+    margin: 3% 0;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.left-description{
+    background-color: #fff;
+    width: 30%;
+    height: 25vh;
+    overflow: hidden;
+
+}
+
+.right-description{
+    background-color: #19338F;
+    width: 50%;
+    height: 50vh;
+    overflow: hidden;
+}
+
+/* heading line two styling */
+.h1-small{
+    font-size: 40px;
+}
+
+
+/* making cards styling */
+.card-messages{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+/* styling card 1 */
+.card-1{
+    width: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2%;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.card-1-left{
+    background-color: #19FC30;
+    height: 35vh ;
+    width: 20%;
+    overflow: hidden;
+}
+.card-1-right{
+    background-color: #180303;
+    height: 50vh;
+    width: 50%;
+    overflow: hidden;
+}
+
+/* styling card 2 */
+.card-2{
+    width: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2%;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.card-2-right{
+    background-color: #19FC30;
+    height: 35vh ;
+    width: 20%;
+    overflow: hidden;
+}
+.card-2-left{
+    background-color: #180303;
+    height: 50vh;
+    width: 50%;
+    overflow: hidden;
+}
+
